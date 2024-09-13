@@ -1,0 +1,9 @@
+[style]
+based_on_style = google
+# Options allowed by Google style guide.
+indent_dictionary_value = true
+split_arguments_when_comma_terminated = true
+# We think this is mandated by the Google style guide, and thus should be built
+# in the style that's included with yapf, but it's not currently.
+# See https://github.com/google/yapf/pull/738.
+join_multiple_lines = false
