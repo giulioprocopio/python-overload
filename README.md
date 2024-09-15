@@ -24,8 +24,8 @@ def foo(x: int):
 
 @overload
 def foo(x: str):
-    return x + "!"
+    return x + '!'
 
 assert foo(1) == 2
-assert foo("hello") == "hello!"
+assert foo('hello') == 'hello!'
 ```
