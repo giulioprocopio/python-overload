@@ -1,4 +1,4 @@
-# Python function overload
+# Python Function Overload
 
 A function decorator that allows for real function overloading in Python 3.  Not
 that `typing.overload` nonsense, but actual function overloading.
