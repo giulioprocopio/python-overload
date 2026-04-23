@@ -1,7 +1,11 @@
 # Python
 __pycache__/
 build/
+dist/
 *.egg-info/
 
 # MacOS
 .DS_Store
+
+# Visual Studio Code
+.vscode/
