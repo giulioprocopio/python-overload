@@ -5,6 +5,13 @@ that `typing.overload` nonsense, but actual function overloading.
 
 This module is a joke, please don't use it in production code.
 
+## Installation
+
+You can install either install this module from the source or from PyPI using
+```bash
+pip install function-overload
+```
+
 ## Usage
 
 Overload-decorated function are grouped by name.  The name of the group is 
